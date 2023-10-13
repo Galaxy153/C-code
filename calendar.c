@@ -57,7 +57,7 @@ int main(void)
   }
   // 1900/1/1是周1故回避了求周几的问题，将1号与星期对齐
   int t = 0;
-  t = ((day % 7) + 3) % 7;
+  t = day % 7;
   for (int l = 0; l < t; l++)
     printf("\t");
 
