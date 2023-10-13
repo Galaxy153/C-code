@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: C_code
+# Project: C-code
 # Configurations: Debug
 # =============================================================================
 
@@ -41,37 +41,70 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = F$:/Clion/C-code/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target C_code
+# Object build statements for EXECUTABLE target calendar
 
 
 #############################################
-# Order-only phony target for C_code
+# Order-only phony target for calendar
 
-build cmake_object_order_depends_target_C_code: phony || CMakeFiles/C_code.dir
+build cmake_object_order_depends_target_calendar: phony || CMakeFiles/calendar.dir
 
-build CMakeFiles/C_code.dir/calendar.c.obj: C_COMPILER__C_code_unscanned_Debug F$:/Clion/C-code/calendar.c || cmake_object_order_depends_target_C_code
-  DEP_FILE = CMakeFiles\C_code.dir\calendar.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\C_code.dir
-  OBJECT_FILE_DIR = CMakeFiles\C_code.dir
+build CMakeFiles/calendar.dir/calendar.c.obj: C_COMPILER__calendar_unscanned_Debug F$:/Clion/C-code/calendar.c || cmake_object_order_depends_target_calendar
+  DEP_FILE = CMakeFiles\calendar.dir\calendar.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\calendar.dir
+  OBJECT_FILE_DIR = CMakeFiles\calendar.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target C_code
+# Link build statements for EXECUTABLE target calendar
 
 
 #############################################
-# Link the executable C_code.exe
+# Link the executable calendar.exe
 
-build C_code.exe: C_EXECUTABLE_LINKER__C_code_Debug CMakeFiles/C_code.dir/calendar.c.obj
+build calendar.exe: C_EXECUTABLE_LINKER__calendar_Debug CMakeFiles/calendar.dir/calendar.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\C_code.dir
+  OBJECT_DIR = CMakeFiles\calendar.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = C_code.exe
-  TARGET_IMPLIB = libC_code.dll.a
-  TARGET_PDB = C_code.exe.dbg
+  TARGET_FILE = calendar.exe
+  TARGET_IMPLIB = libcalendar.dll.a
+  TARGET_PDB = calendar.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task5-5
+
+
+#############################################
+# Order-only phony target for task5-5
+
+build cmake_object_order_depends_target_task5-5: phony || CMakeFiles/task5-5.dir
+
+build CMakeFiles/task5-5.dir/task5-5.c.obj: C_COMPILER__task5-5_unscanned_Debug F$:/Clion/C-code/task5-5.c || cmake_object_order_depends_target_task5-5
+  DEP_FILE = CMakeFiles\task5-5.dir\task5-5.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\task5-5.dir
+  OBJECT_FILE_DIR = CMakeFiles\task5-5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task5-5
+
+
+#############################################
+# Link the executable task5-5.exe
+
+build task5-5.exe: C_EXECUTABLE_LINKER__task5-5_Debug CMakeFiles/task5-5.dir/task5-5.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\task5-5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = task5-5.exe
+  TARGET_IMPLIB = libtask5-5.dll.a
+  TARGET_PDB = task5-5.exe.dbg
 
 
 #############################################
@@ -99,7 +132,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build C_code: phony C_code.exe
+build calendar: phony calendar.exe
+
+build task5-5: phony task5-5.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +144,7 @@ build C_code: phony C_code.exe
 #############################################
 # Folder: F:/Clion/C-code/cmake-build-debug
 
-build all: phony C_code.exe
+build all: phony calendar.exe task5-5.exe
 
 # =============================================================================
 # Built-in targets
