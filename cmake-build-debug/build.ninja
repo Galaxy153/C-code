@@ -82,11 +82,11 @@ build calendar.exe: C_EXECUTABLE_LINKER__calendar_Debug CMakeFiles/calendar.dir/
 
 build cmake_object_order_depends_target_task5-5: phony || CMakeFiles/task5-5.dir
 
-build CMakeFiles/task5-5.dir/practice/task5-5.c.obj: C_COMPILER__task5-5_unscanned_Debug F$:/Clion/C-code/practice/task5-5.c || cmake_object_order_depends_target_task5-5
-  DEP_FILE = CMakeFiles\task5-5.dir\practice\task5-5.c.obj.d
+build CMakeFiles/task5-5.dir/practice/Chapter5/task5-5.c.obj: C_COMPILER__task5-5_unscanned_Debug F$:/Clion/C-code/practice/Chapter5/task5-5.c || cmake_object_order_depends_target_task5-5
+  DEP_FILE = CMakeFiles\task5-5.dir\practice\Chapter5\task5-5.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\task5-5.dir
-  OBJECT_FILE_DIR = CMakeFiles\task5-5.dir\practice
+  OBJECT_FILE_DIR = CMakeFiles\task5-5.dir\practice\Chapter5
 
 
 # =============================================================================
@@ -96,7 +96,7 @@ build CMakeFiles/task5-5.dir/practice/task5-5.c.obj: C_COMPILER__task5-5_unscann
 #############################################
 # Link the executable task5-5.exe
 
-build task5-5.exe: C_EXECUTABLE_LINKER__task5-5_Debug CMakeFiles/task5-5.dir/practice/task5-5.c.obj
+build task5-5.exe: C_EXECUTABLE_LINKER__task5-5_Debug CMakeFiles/task5-5.dir/practice/Chapter5/task5-5.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\task5-5.dir
