@@ -5,7 +5,7 @@
 int main(void)
 {
   int year = 0, month = 0, day = 0, day_input_year = 0;
-  while (1)
+  while (1)//输入年
   {
     printf("Please enter any year after 1900 :");
     scanf("%d", &year);
@@ -13,7 +13,7 @@ int main(void)
       break;
   }
 
-  while (1)
+  while (1)//输入月
   {
     printf("Please enter the month :");
     scanf("%d", &month);
@@ -21,7 +21,7 @@ int main(void)
       break;
   }
 
-  printf("Mon\tTue\tWed\tThu\tFri\tSat\tSun\n");
+  printf("Mon\tTue\tWed\tThu\tFri\tSat\tSun\n");//输出表头
 
   for (int i = 1900; i < year; i++) // 将输入年份之前的天数求和
   {
@@ -55,7 +55,7 @@ int main(void)
     if (j < month)
       day += day_input_year; // 将输入年份的天数加到总天数中
   }
-  // 1900/1/1是周1故回避了求周几的问题
+  // 1900/1/1是周1故回避了求周几的问题，将1号与星期对齐
   int t = 0;
   t = ((day % 7) + 3) % 7;
   for (int l = 0; l < t; l++)
