@@ -74,6 +74,39 @@ build calendar.exe: C_EXECUTABLE_LINKER__calendar_Debug CMakeFiles/calendar.dir/
   TARGET_PDB = calendar.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Palindromic_string
+
+
+#############################################
+# Order-only phony target for Palindromic_string
+
+build cmake_object_order_depends_target_Palindromic_string: phony || CMakeFiles/Palindromic_string.dir
+
+build CMakeFiles/Palindromic_string.dir/task_code/Palindromic_string.c.obj: C_COMPILER__Palindromic_string_unscanned_Debug F$:/Clion/C-code/task_code/Palindromic_string.c || cmake_object_order_depends_target_Palindromic_string
+  DEP_FILE = CMakeFiles\Palindromic_string.dir\task_code\Palindromic_string.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Palindromic_string.dir
+  OBJECT_FILE_DIR = CMakeFiles\Palindromic_string.dir\task_code
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Palindromic_string
+
+
+#############################################
+# Link the executable Palindromic_string.exe
+
+build Palindromic_string.exe: C_EXECUTABLE_LINKER__Palindromic_string_Debug CMakeFiles/Palindromic_string.dir/task_code/Palindromic_string.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Palindromic_string.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Palindromic_string.exe
+  TARGET_IMPLIB = libPalindromic_string.dll.a
+  TARGET_PDB = Palindromic_string.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target task5-5
 
 
@@ -231,6 +264,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Palindromic_string: phony Palindromic_string.exe
+
 build calendar: phony calendar.exe
 
 build task5-5: phony task5-5.exe
@@ -249,7 +284,7 @@ build task5-8: phony task5-8.exe
 #############################################
 # Folder: F:/Clion/C-code/cmake-build-debug
 
-build all: phony calendar.exe task5-5.exe task5-6.exe task5-7.exe task5-8.exe
+build all: phony calendar.exe Palindromic_string.exe task5-5.exe task5-6.exe task5-7.exe task5-8.exe
 
 # =============================================================================
 # Built-in targets

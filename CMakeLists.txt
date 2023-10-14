@@ -4,6 +4,7 @@ project(C-code C)
 set(CMAKE_C_STANDARD 17)
 
 add_executable(calendar task_code/calendar.c)
+add_executable(Palindromic_string task_code/Palindromic_string.c)
 add_executable(task5-5 practice_code/Chapter5/task5-5.c)
 add_executable(task5-6 practice_code/Chapter5/task5-6.c)
 add_executable(task5-7 practice_code/Chapter5/task5-7.c)

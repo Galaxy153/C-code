@@ -1,4 +1,5 @@
 F:/Clion/C-code/cmake-build-debug/CMakeFiles/calendar.dir
+F:/Clion/C-code/cmake-build-debug/CMakeFiles/Palindromic_string.dir
 F:/Clion/C-code/cmake-build-debug/CMakeFiles/task5-5.dir
 F:/Clion/C-code/cmake-build-debug/CMakeFiles/task5-6.dir
 F:/Clion/C-code/cmake-build-debug/CMakeFiles/task5-7.dir
