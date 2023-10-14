@@ -5,3 +5,6 @@ set(CMAKE_C_STANDARD 17)
 
 add_executable(calendar task_code/calendar.c)
 add_executable(task5-5 practice_code/Chapter5/task5-5.c)
+add_executable(task5-6 practice_code/Chapter5/task5-6.c)
+add_executable(task5-7 practice_code/Chapter5/task5-7.c)
+add_executable(task5-8 practice_code/Chapter5/task5-8.c)

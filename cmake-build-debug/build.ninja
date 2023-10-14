@@ -49,11 +49,11 @@ cmake_ninja_workdir = F$:/Clion/C-code/cmake-build-debug/
 
 build cmake_object_order_depends_target_calendar: phony || CMakeFiles/calendar.dir
 
-build CMakeFiles/calendar.dir/calendar.c.obj: C_COMPILER__calendar_unscanned_Debug F$:/Clion/C-code/calendar.c || cmake_object_order_depends_target_calendar
-  DEP_FILE = CMakeFiles\calendar.dir\calendar.c.obj.d
+build CMakeFiles/calendar.dir/task_code/calendar.c.obj: C_COMPILER__calendar_unscanned_Debug F$:/Clion/C-code/task_code/calendar.c || cmake_object_order_depends_target_calendar
+  DEP_FILE = CMakeFiles\calendar.dir\task_code\calendar.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\calendar.dir
-  OBJECT_FILE_DIR = CMakeFiles\calendar.dir
+  OBJECT_FILE_DIR = CMakeFiles\calendar.dir\task_code
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/calendar.dir/calendar.c.obj: C_COMPILER__calendar_unscanned_Deb
 #############################################
 # Link the executable calendar.exe
 
-build calendar.exe: C_EXECUTABLE_LINKER__calendar_Debug CMakeFiles/calendar.dir/calendar.c.obj
+build calendar.exe: C_EXECUTABLE_LINKER__calendar_Debug CMakeFiles/calendar.dir/task_code/calendar.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\calendar.dir
@@ -82,11 +82,11 @@ build calendar.exe: C_EXECUTABLE_LINKER__calendar_Debug CMakeFiles/calendar.dir/
 
 build cmake_object_order_depends_target_task5-5: phony || CMakeFiles/task5-5.dir
 
-build CMakeFiles/task5-5.dir/practice/Chapter5/task5-5.c.obj: C_COMPILER__task5-5_unscanned_Debug F$:/Clion/C-code/practice/Chapter5/task5-5.c || cmake_object_order_depends_target_task5-5
-  DEP_FILE = CMakeFiles\task5-5.dir\practice\Chapter5\task5-5.c.obj.d
+build CMakeFiles/task5-5.dir/practice_code/Chapter5/task5-5.c.obj: C_COMPILER__task5-5_unscanned_Debug F$:/Clion/C-code/practice_code/Chapter5/task5-5.c || cmake_object_order_depends_target_task5-5
+  DEP_FILE = CMakeFiles\task5-5.dir\practice_code\Chapter5\task5-5.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\task5-5.dir
-  OBJECT_FILE_DIR = CMakeFiles\task5-5.dir\practice\Chapter5
+  OBJECT_FILE_DIR = CMakeFiles\task5-5.dir\practice_code\Chapter5
 
 
 # =============================================================================
@@ -96,7 +96,7 @@ build CMakeFiles/task5-5.dir/practice/Chapter5/task5-5.c.obj: C_COMPILER__task5-
 #############################################
 # Link the executable task5-5.exe
 
-build task5-5.exe: C_EXECUTABLE_LINKER__task5-5_Debug CMakeFiles/task5-5.dir/practice/Chapter5/task5-5.c.obj
+build task5-5.exe: C_EXECUTABLE_LINKER__task5-5_Debug CMakeFiles/task5-5.dir/practice_code/Chapter5/task5-5.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\task5-5.dir
@@ -105,6 +105,105 @@ build task5-5.exe: C_EXECUTABLE_LINKER__task5-5_Debug CMakeFiles/task5-5.dir/pra
   TARGET_FILE = task5-5.exe
   TARGET_IMPLIB = libtask5-5.dll.a
   TARGET_PDB = task5-5.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task5-6
+
+
+#############################################
+# Order-only phony target for task5-6
+
+build cmake_object_order_depends_target_task5-6: phony || CMakeFiles/task5-6.dir
+
+build CMakeFiles/task5-6.dir/practice_code/Chapter5/task5-6.c.obj: C_COMPILER__task5-6_unscanned_Debug F$:/Clion/C-code/practice_code/Chapter5/task5-6.c || cmake_object_order_depends_target_task5-6
+  DEP_FILE = CMakeFiles\task5-6.dir\practice_code\Chapter5\task5-6.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\task5-6.dir
+  OBJECT_FILE_DIR = CMakeFiles\task5-6.dir\practice_code\Chapter5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task5-6
+
+
+#############################################
+# Link the executable task5-6.exe
+
+build task5-6.exe: C_EXECUTABLE_LINKER__task5-6_Debug CMakeFiles/task5-6.dir/practice_code/Chapter5/task5-6.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\task5-6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = task5-6.exe
+  TARGET_IMPLIB = libtask5-6.dll.a
+  TARGET_PDB = task5-6.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task5-7
+
+
+#############################################
+# Order-only phony target for task5-7
+
+build cmake_object_order_depends_target_task5-7: phony || CMakeFiles/task5-7.dir
+
+build CMakeFiles/task5-7.dir/practice_code/Chapter5/task5-7.c.obj: C_COMPILER__task5-7_unscanned_Debug F$:/Clion/C-code/practice_code/Chapter5/task5-7.c || cmake_object_order_depends_target_task5-7
+  DEP_FILE = CMakeFiles\task5-7.dir\practice_code\Chapter5\task5-7.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\task5-7.dir
+  OBJECT_FILE_DIR = CMakeFiles\task5-7.dir\practice_code\Chapter5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task5-7
+
+
+#############################################
+# Link the executable task5-7.exe
+
+build task5-7.exe: C_EXECUTABLE_LINKER__task5-7_Debug CMakeFiles/task5-7.dir/practice_code/Chapter5/task5-7.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\task5-7.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = task5-7.exe
+  TARGET_IMPLIB = libtask5-7.dll.a
+  TARGET_PDB = task5-7.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task5-8
+
+
+#############################################
+# Order-only phony target for task5-8
+
+build cmake_object_order_depends_target_task5-8: phony || CMakeFiles/task5-8.dir
+
+build CMakeFiles/task5-8.dir/practice_code/Chapter5/task5-8.c.obj: C_COMPILER__task5-8_unscanned_Debug F$:/Clion/C-code/practice_code/Chapter5/task5-8.c || cmake_object_order_depends_target_task5-8
+  DEP_FILE = CMakeFiles\task5-8.dir\practice_code\Chapter5\task5-8.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\task5-8.dir
+  OBJECT_FILE_DIR = CMakeFiles\task5-8.dir\practice_code\Chapter5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task5-8
+
+
+#############################################
+# Link the executable task5-8.exe
+
+build task5-8.exe: C_EXECUTABLE_LINKER__task5-8_Debug CMakeFiles/task5-8.dir/practice_code/Chapter5/task5-8.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\task5-8.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = task5-8.exe
+  TARGET_IMPLIB = libtask5-8.dll.a
+  TARGET_PDB = task5-8.exe.dbg
 
 
 #############################################
@@ -136,6 +235,12 @@ build calendar: phony calendar.exe
 
 build task5-5: phony task5-5.exe
 
+build task5-6: phony task5-6.exe
+
+build task5-7: phony task5-7.exe
+
+build task5-8: phony task5-8.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -144,7 +249,7 @@ build task5-5: phony task5-5.exe
 #############################################
 # Folder: F:/Clion/C-code/cmake-build-debug
 
-build all: phony calendar.exe task5-5.exe
+build all: phony calendar.exe task5-5.exe task5-6.exe task5-7.exe task5-8.exe
 
 # =============================================================================
 # Built-in targets
