@@ -337,6 +337,402 @@ build task5-11.exe: C_EXECUTABLE_LINKER__task5-11_Debug CMakeFiles/task5-11.dir/
   TARGET_IMPLIB = libtask5-11.dll.a
   TARGET_PDB = task5-11.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target task6-1
+
+
+#############################################
+# Order-only phony target for task6-1
+
+build cmake_object_order_depends_target_task6-1: phony || CMakeFiles/task6-1.dir
+
+build CMakeFiles/task6-1.dir/practice_code/Chapter6/task6-1.c.obj: C_COMPILER__task6-1_unscanned_Debug F$:/Clion/C-code/practice_code/Chapter6/task6-1.c || cmake_object_order_depends_target_task6-1
+  DEP_FILE = CMakeFiles\task6-1.dir\practice_code\Chapter6\task6-1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\task6-1.dir
+  OBJECT_FILE_DIR = CMakeFiles\task6-1.dir\practice_code\Chapter6
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task6-1
+
+
+#############################################
+# Link the executable task6-1.exe
+
+build task6-1.exe: C_EXECUTABLE_LINKER__task6-1_Debug CMakeFiles/task6-1.dir/practice_code/Chapter6/task6-1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\task6-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = task6-1.exe
+  TARGET_IMPLIB = libtask6-1.dll.a
+  TARGET_PDB = task6-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task6-2
+
+
+#############################################
+# Order-only phony target for task6-2
+
+build cmake_object_order_depends_target_task6-2: phony || CMakeFiles/task6-2.dir
+
+build CMakeFiles/task6-2.dir/practice_code/Chapter6/task6-2.c.obj: C_COMPILER__task6-2_unscanned_Debug F$:/Clion/C-code/practice_code/Chapter6/task6-2.c || cmake_object_order_depends_target_task6-2
+  DEP_FILE = CMakeFiles\task6-2.dir\practice_code\Chapter6\task6-2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\task6-2.dir
+  OBJECT_FILE_DIR = CMakeFiles\task6-2.dir\practice_code\Chapter6
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task6-2
+
+
+#############################################
+# Link the executable task6-2.exe
+
+build task6-2.exe: C_EXECUTABLE_LINKER__task6-2_Debug CMakeFiles/task6-2.dir/practice_code/Chapter6/task6-2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\task6-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = task6-2.exe
+  TARGET_IMPLIB = libtask6-2.dll.a
+  TARGET_PDB = task6-2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task6-3
+
+
+#############################################
+# Order-only phony target for task6-3
+
+build cmake_object_order_depends_target_task6-3: phony || CMakeFiles/task6-3.dir
+
+build CMakeFiles/task6-3.dir/practice_code/Chapter6/task6-3.c.obj: C_COMPILER__task6-3_unscanned_Debug F$:/Clion/C-code/practice_code/Chapter6/task6-3.c || cmake_object_order_depends_target_task6-3
+  DEP_FILE = CMakeFiles\task6-3.dir\practice_code\Chapter6\task6-3.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\task6-3.dir
+  OBJECT_FILE_DIR = CMakeFiles\task6-3.dir\practice_code\Chapter6
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task6-3
+
+
+#############################################
+# Link the executable task6-3.exe
+
+build task6-3.exe: C_EXECUTABLE_LINKER__task6-3_Debug CMakeFiles/task6-3.dir/practice_code/Chapter6/task6-3.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\task6-3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = task6-3.exe
+  TARGET_IMPLIB = libtask6-3.dll.a
+  TARGET_PDB = task6-3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task6-4
+
+
+#############################################
+# Order-only phony target for task6-4
+
+build cmake_object_order_depends_target_task6-4: phony || CMakeFiles/task6-4.dir
+
+build CMakeFiles/task6-4.dir/practice_code/Chapter6/task6-4.c.obj: C_COMPILER__task6-4_unscanned_Debug F$:/Clion/C-code/practice_code/Chapter6/task6-4.c || cmake_object_order_depends_target_task6-4
+  DEP_FILE = CMakeFiles\task6-4.dir\practice_code\Chapter6\task6-4.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\task6-4.dir
+  OBJECT_FILE_DIR = CMakeFiles\task6-4.dir\practice_code\Chapter6
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task6-4
+
+
+#############################################
+# Link the executable task6-4.exe
+
+build task6-4.exe: C_EXECUTABLE_LINKER__task6-4_Debug CMakeFiles/task6-4.dir/practice_code/Chapter6/task6-4.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\task6-4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = task6-4.exe
+  TARGET_IMPLIB = libtask6-4.dll.a
+  TARGET_PDB = task6-4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task6-5
+
+
+#############################################
+# Order-only phony target for task6-5
+
+build cmake_object_order_depends_target_task6-5: phony || CMakeFiles/task6-5.dir
+
+build CMakeFiles/task6-5.dir/practice_code/Chapter6/task6-5.c.obj: C_COMPILER__task6-5_unscanned_Debug F$:/Clion/C-code/practice_code/Chapter6/task6-5.c || cmake_object_order_depends_target_task6-5
+  DEP_FILE = CMakeFiles\task6-5.dir\practice_code\Chapter6\task6-5.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\task6-5.dir
+  OBJECT_FILE_DIR = CMakeFiles\task6-5.dir\practice_code\Chapter6
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task6-5
+
+
+#############################################
+# Link the executable task6-5.exe
+
+build task6-5.exe: C_EXECUTABLE_LINKER__task6-5_Debug CMakeFiles/task6-5.dir/practice_code/Chapter6/task6-5.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\task6-5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = task6-5.exe
+  TARGET_IMPLIB = libtask6-5.dll.a
+  TARGET_PDB = task6-5.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task6-6
+
+
+#############################################
+# Order-only phony target for task6-6
+
+build cmake_object_order_depends_target_task6-6: phony || CMakeFiles/task6-6.dir
+
+build CMakeFiles/task6-6.dir/practice_code/Chapter6/task6-6.c.obj: C_COMPILER__task6-6_unscanned_Debug F$:/Clion/C-code/practice_code/Chapter6/task6-6.c || cmake_object_order_depends_target_task6-6
+  DEP_FILE = CMakeFiles\task6-6.dir\practice_code\Chapter6\task6-6.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\task6-6.dir
+  OBJECT_FILE_DIR = CMakeFiles\task6-6.dir\practice_code\Chapter6
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task6-6
+
+
+#############################################
+# Link the executable task6-6.exe
+
+build task6-6.exe: C_EXECUTABLE_LINKER__task6-6_Debug CMakeFiles/task6-6.dir/practice_code/Chapter6/task6-6.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\task6-6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = task6-6.exe
+  TARGET_IMPLIB = libtask6-6.dll.a
+  TARGET_PDB = task6-6.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task6-7
+
+
+#############################################
+# Order-only phony target for task6-7
+
+build cmake_object_order_depends_target_task6-7: phony || CMakeFiles/task6-7.dir
+
+build CMakeFiles/task6-7.dir/practice_code/Chapter6/task6-7.c.obj: C_COMPILER__task6-7_unscanned_Debug F$:/Clion/C-code/practice_code/Chapter6/task6-7.c || cmake_object_order_depends_target_task6-7
+  DEP_FILE = CMakeFiles\task6-7.dir\practice_code\Chapter6\task6-7.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\task6-7.dir
+  OBJECT_FILE_DIR = CMakeFiles\task6-7.dir\practice_code\Chapter6
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task6-7
+
+
+#############################################
+# Link the executable task6-7.exe
+
+build task6-7.exe: C_EXECUTABLE_LINKER__task6-7_Debug CMakeFiles/task6-7.dir/practice_code/Chapter6/task6-7.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\task6-7.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = task6-7.exe
+  TARGET_IMPLIB = libtask6-7.dll.a
+  TARGET_PDB = task6-7.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task6-8
+
+
+#############################################
+# Order-only phony target for task6-8
+
+build cmake_object_order_depends_target_task6-8: phony || CMakeFiles/task6-8.dir
+
+build CMakeFiles/task6-8.dir/practice_code/Chapter6/task6-8.c.obj: C_COMPILER__task6-8_unscanned_Debug F$:/Clion/C-code/practice_code/Chapter6/task6-8.c || cmake_object_order_depends_target_task6-8
+  DEP_FILE = CMakeFiles\task6-8.dir\practice_code\Chapter6\task6-8.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\task6-8.dir
+  OBJECT_FILE_DIR = CMakeFiles\task6-8.dir\practice_code\Chapter6
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task6-8
+
+
+#############################################
+# Link the executable task6-8.exe
+
+build task6-8.exe: C_EXECUTABLE_LINKER__task6-8_Debug CMakeFiles/task6-8.dir/practice_code/Chapter6/task6-8.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\task6-8.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = task6-8.exe
+  TARGET_IMPLIB = libtask6-8.dll.a
+  TARGET_PDB = task6-8.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task6-9
+
+
+#############################################
+# Order-only phony target for task6-9
+
+build cmake_object_order_depends_target_task6-9: phony || CMakeFiles/task6-9.dir
+
+build CMakeFiles/task6-9.dir/practice_code/Chapter6/task6-9.c.obj: C_COMPILER__task6-9_unscanned_Debug F$:/Clion/C-code/practice_code/Chapter6/task6-9.c || cmake_object_order_depends_target_task6-9
+  DEP_FILE = CMakeFiles\task6-9.dir\practice_code\Chapter6\task6-9.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\task6-9.dir
+  OBJECT_FILE_DIR = CMakeFiles\task6-9.dir\practice_code\Chapter6
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task6-9
+
+
+#############################################
+# Link the executable task6-9.exe
+
+build task6-9.exe: C_EXECUTABLE_LINKER__task6-9_Debug CMakeFiles/task6-9.dir/practice_code/Chapter6/task6-9.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\task6-9.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = task6-9.exe
+  TARGET_IMPLIB = libtask6-9.dll.a
+  TARGET_PDB = task6-9.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task6-10
+
+
+#############################################
+# Order-only phony target for task6-10
+
+build cmake_object_order_depends_target_task6-10: phony || CMakeFiles/task6-10.dir
+
+build CMakeFiles/task6-10.dir/practice_code/Chapter6/task6-10.c.obj: C_COMPILER__task6-10_unscanned_Debug F$:/Clion/C-code/practice_code/Chapter6/task6-10.c || cmake_object_order_depends_target_task6-10
+  DEP_FILE = CMakeFiles\task6-10.dir\practice_code\Chapter6\task6-10.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\task6-10.dir
+  OBJECT_FILE_DIR = CMakeFiles\task6-10.dir\practice_code\Chapter6
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task6-10
+
+
+#############################################
+# Link the executable task6-10.exe
+
+build task6-10.exe: C_EXECUTABLE_LINKER__task6-10_Debug CMakeFiles/task6-10.dir/practice_code/Chapter6/task6-10.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\task6-10.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = task6-10.exe
+  TARGET_IMPLIB = libtask6-10.dll.a
+  TARGET_PDB = task6-10.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task6-11
+
+
+#############################################
+# Order-only phony target for task6-11
+
+build cmake_object_order_depends_target_task6-11: phony || CMakeFiles/task6-11.dir
+
+build CMakeFiles/task6-11.dir/practice_code/Chapter6/task6-11.c.obj: C_COMPILER__task6-11_unscanned_Debug F$:/Clion/C-code/practice_code/Chapter6/task6-11.c || cmake_object_order_depends_target_task6-11
+  DEP_FILE = CMakeFiles\task6-11.dir\practice_code\Chapter6\task6-11.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\task6-11.dir
+  OBJECT_FILE_DIR = CMakeFiles\task6-11.dir\practice_code\Chapter6
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task6-11
+
+
+#############################################
+# Link the executable task6-11.exe
+
+build task6-11.exe: C_EXECUTABLE_LINKER__task6-11_Debug CMakeFiles/task6-11.dir/practice_code/Chapter6/task6-11.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\task6-11.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = task6-11.exe
+  TARGET_IMPLIB = libtask6-11.dll.a
+  TARGET_PDB = task6-11.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task6-12
+
+
+#############################################
+# Order-only phony target for task6-12
+
+build cmake_object_order_depends_target_task6-12: phony || CMakeFiles/task6-12.dir
+
+build CMakeFiles/task6-12.dir/practice_code/Chapter6/task6-12.c.obj: C_COMPILER__task6-12_unscanned_Debug F$:/Clion/C-code/practice_code/Chapter6/task6-12.c || cmake_object_order_depends_target_task6-12
+  DEP_FILE = CMakeFiles\task6-12.dir\practice_code\Chapter6\task6-12.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\task6-12.dir
+  OBJECT_FILE_DIR = CMakeFiles\task6-12.dir\practice_code\Chapter6
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task6-12
+
+
+#############################################
+# Link the executable task6-12.exe
+
+build task6-12.exe: C_EXECUTABLE_LINKER__task6-12_Debug CMakeFiles/task6-12.dir/practice_code/Chapter6/task6-12.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\task6-12.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = task6-12.exe
+  TARGET_IMPLIB = libtask6-12.dll.a
+  TARGET_PDB = task6-12.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -381,6 +777,30 @@ build task5-8: phony task5-8.exe
 
 build task5-9: phony task5-9.exe
 
+build task6-1: phony task6-1.exe
+
+build task6-10: phony task6-10.exe
+
+build task6-11: phony task6-11.exe
+
+build task6-12: phony task6-12.exe
+
+build task6-2: phony task6-2.exe
+
+build task6-3: phony task6-3.exe
+
+build task6-4: phony task6-4.exe
+
+build task6-5: phony task6-5.exe
+
+build task6-6: phony task6-6.exe
+
+build task6-7: phony task6-7.exe
+
+build task6-8: phony task6-8.exe
+
+build task6-9: phony task6-9.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -389,7 +809,7 @@ build task5-9: phony task5-9.exe
 #############################################
 # Folder: F:/Clion/C-code/cmake-build-debug
 
-build all: phony calendar.exe Palindromic_string.exe task5-5.exe task5-6.exe task5-7.exe task5-8.exe task5-9.exe task5-10.exe task5-11.exe
+build all: phony calendar.exe Palindromic_string.exe task5-5.exe task5-6.exe task5-7.exe task5-8.exe task5-9.exe task5-10.exe task5-11.exe task6-1.exe task6-2.exe task6-3.exe task6-4.exe task6-5.exe task6-6.exe task6-7.exe task6-8.exe task6-9.exe task6-10.exe task6-11.exe task6-12.exe
 
 # =============================================================================
 # Built-in targets

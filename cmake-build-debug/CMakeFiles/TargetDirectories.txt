@@ -7,5 +7,17 @@ F:/Clion/C-code/cmake-build-debug/CMakeFiles/task5-8.dir
 F:/Clion/C-code/cmake-build-debug/CMakeFiles/task5-9.dir
 F:/Clion/C-code/cmake-build-debug/CMakeFiles/task5-10.dir
 F:/Clion/C-code/cmake-build-debug/CMakeFiles/task5-11.dir
+F:/Clion/C-code/cmake-build-debug/CMakeFiles/task6-1.dir
+F:/Clion/C-code/cmake-build-debug/CMakeFiles/task6-2.dir
+F:/Clion/C-code/cmake-build-debug/CMakeFiles/task6-3.dir
+F:/Clion/C-code/cmake-build-debug/CMakeFiles/task6-4.dir
+F:/Clion/C-code/cmake-build-debug/CMakeFiles/task6-5.dir
+F:/Clion/C-code/cmake-build-debug/CMakeFiles/task6-6.dir
+F:/Clion/C-code/cmake-build-debug/CMakeFiles/task6-7.dir
+F:/Clion/C-code/cmake-build-debug/CMakeFiles/task6-8.dir
+F:/Clion/C-code/cmake-build-debug/CMakeFiles/task6-9.dir
+F:/Clion/C-code/cmake-build-debug/CMakeFiles/task6-10.dir
+F:/Clion/C-code/cmake-build-debug/CMakeFiles/task6-11.dir
+F:/Clion/C-code/cmake-build-debug/CMakeFiles/task6-12.dir
 F:/Clion/C-code/cmake-build-debug/CMakeFiles/edit_cache.dir
 F:/Clion/C-code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
